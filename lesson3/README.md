@@ -48,11 +48,11 @@ ram消耗 0K
 ram释放 0.6K
 
 **10.总结**
-和原始的emplace 4个字段（消耗0.6K）相比:
-1.插入字段越少，消耗ram越少。
-2.插入一个相同字段但没有EOSLIB_SERIALIZE的multi_task，消耗ram反而更少。（和理解不符）
-3.update没有ram消耗。（是否真的不消耗？还是显示ram used只到0.1K导致看不出来？）
-4.erase会释放ram。
+- 和原始的emplace 4个字段（消耗0.6K）相比:
+    1.插入字段越少，消耗ram越少。
+    2.插入一个相同字段但没有EOSLIB_SERIALIZE的multi_task，消耗ram反而更少。（和理解不符）
+    3.update没有ram消耗。（是否真的不消耗？还是显示ram used只到0.1K导致看不出来？）
+    4.erase会释放ram。
 
 ##kpi合约
 合约代码见kpi.cpp
