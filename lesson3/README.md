@@ -11,9 +11,11 @@
  */
 合约见代码见ramtests.cpp
 
-![**1.编译合约**](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/ramtests_compile.png)
+**1.编译合约**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/ramtests_compile.png)
 
-![**2.部署合约**](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/deploy_ram0.png)
+**2.部署合约**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/deploy_ram0.png)
 
 此时ram使用 184K
 
