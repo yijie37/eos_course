@@ -1,0 +1,62 @@
+# 第三课作业
+##自定义存储表，观察ram消耗
+
+建了几个表测试ram消耗/**
+ * 测试操作multi_index消耗的RAM
+ * 0.一个primary key，两个secondary key
+ * 1.primary key 使用auto increament
+ * 2.不使用 EOSLIB_SERIALIZE序列化
+ * 3.去掉一个没有索引的字段
+ * 4.去掉一个二级索引字段
+ */
+合约见代码见ramtests.cpp
+
+**1.编译合约**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/ramtests_compile.png)
+
+**2.部署合约**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/ramtests_compile.png)
+
+**3.测试0**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/add.png)
+
+**4.测试1**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/add1.png)
+
+**5.测试2**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/add2.png)
+
+**6.测试3**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/add3.png)
+
+**7.测试4**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/add4.png)
+
+**8.update**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/update.png)
+
+**9.delete**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/del.png)
+
+**10.总结**
+
+
+##kpi合约
+合约代码见kpi.cpp
+
+**1.部署合约**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/deploy_kpi.png)
+
+**2.调用前账户的EOS和记录表内容**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/before_token.png)
+
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/before_record.png)
+
+**3.调用record**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/call_record.png)
+
+**4.调用后账户的EOS和记录表内容**
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/after_token.png)
+
+![](https://github.com/yijie37/eos_course/blob/master/lesson3/resources/after_record.png)
+
